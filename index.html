@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Test Landing Page</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <header>
+            <!-- <i class="fas fa-user logo"></i> -->
+            <!-- svg viewBox="0 0 69 32"-->
+            <svg class="pre-logo-svg" height="30px" width="60px" fill="#111" ><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+            <ul class="hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="details">
+                <h1>Nike Shoes</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ut eveniet sit </p>
+                <button class="buy-button">
+                    Buy Now
+                </button>
+
+            </div>
+            <div class="img-container" >
+                <div class="image-size-box">
+                    <label for="image-size">Apply Size</label>
+                    <input onchange="changeImageSize()" type="range" id="image-size" min="1" max="3" step="1" value="3">
+                </div>
+            </div>
+                
+            
+        </div>
+        <footer>
+            <a id="facebook-link" href="https://www.facebook.com/abdrabo60" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a id="instgram-link" href="https://www.instagram.com/abdrabo60" target="_blank"><i class="fab fa-instagram"></i> </a>
+            <a id="twitter-link" href="https://www.twitter.com/abdrabo60" target="_blank"> <i class="fab fa-twitter"></i></a>
+
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
